@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Package Installation command in terminal of Visual Studio –
+
+axios - npm install axios.
+
+Router - npm install react-router-dom
+
+JSON Server - npm install json-server
+
+Material Ui - 1. npm install @mui/material @emotion/react @emotion/styled 
+              2. npm install @mui/material @mui/styled-engine-sc styled-components 
+              3. npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+React Hook Form - npm install react-hook-form
+
+Command to connect UI with JSON Server –
+
+npx json-server Backend/db.json –watch port 4000
+(*** Port number can be anything except 3000 ***)
+
+We have to use two terminals –
+
+1st terminal for JSON Server.
+
+2nd terminal for npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
